@@ -1,0 +1,67 @@
+﻿header{
+	background: #FF99CC;
+	border-radius: 6px;
+}
+body { 
+	width:980px; 
+	margin:0 auto; 
+	text-align: center;
+	background: #CD0074;
+	/*background: linear-gradient(#E667AF, #F0F8FF);*/
+	border-radius: 6px;
+}
+p { 
+	color: #000000; /* Цвет текста */ 
+	font-family:Arial,Helvetica,sans-serif; /* шрифт текста */ 
+	font-size: 150%; /* Размер текста */ 
+} 
+h1 { 
+	color: #85004B; /* Цвет текста */ 
+	font-family:Arial,Helvetica,sans-serif; /* шрифт текста */ 
+}
+h2 { 
+	color: #85004B; /* Цвет текста */ 
+	font-family:Arial,Helvetica,sans-serif; /* шрифт текста */ 
+}
+footer {
+	font-weight: bold; /*Полужирный шрифт текста */
+	background: #992667;
+	border-radius: 6px;
+}
+.div_new {
+	position: relative;	
+}
+span {
+	display: inline-block;
+	padding: 15px;
+	width:503px; 
+	bottom: 0px;
+	background: #000000;
+	opacity: 0.70; 
+	text-align: center;
+	color: #ffffff;
+	font: 16px/21px Tahoma, Geneva, sans-serif;
+}
+ul.hr{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	display: block; /* добавляем блочность, если необходимо */
+	font-size: 0; /* убираем нежелательные отсутпы у дочерних элементов */
+}
+ul.hr li{
+	padding: 10px;
+	margin: 0 20px;
+	font-size: 16px; /* возвращаем размер шрифта */
+	display: inline-block; /* позволяем vertical-align выравнивать себя по вертикали */
+	vertical-align: middle; /* и выравниваем */
+}
+li {
+	text-align: left;
+}
+.fon{
+border-radius: 6px;
+background: #85004B;
+background: linear-gradient(#E6399B, #E667AF);
+}
